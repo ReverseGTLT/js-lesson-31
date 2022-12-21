@@ -23,7 +23,7 @@
 }
 
 .none {
-    pointer-events: none;
+    display: none;
 }
 
 button {
@@ -32,10 +32,15 @@ button {
     opacity: 0.5;
     transition: 0.2s;
     height: 50px;
-    margin-block: auto;
+    width: 50px;
+    user-select: none;
+}
+
+.box {
     margin-left: 20px;
     margin-right: 20px;
-    user-select: none;
+    margin-block: auto;
+    width: 50px;
 }
 
 button:hover {
